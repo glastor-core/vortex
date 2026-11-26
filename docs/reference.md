@@ -1370,7 +1370,7 @@ function generateMarkdownSummary(result: VortexAnalysisResult): string;
 
 ## postOrUpdateStickyPrComment
 
-**Kind:** `function` | **Module:** `src/reporters/finops-reporter.ts:300`
+**Kind:** `function` | **Module:** `src/reporters/finops-reporter.ts:306`
 
 Posts or updates an idempotent sticky Pull Request comment on GitHub when `GITHUB_TOKEN`
 and PR context (`GITHUB_EVENT_PATH`) are available.
@@ -1389,7 +1389,7 @@ function postOrUpdateStickyPrComment(summaryMarkdown: string): Promise<boolean>;
 
 ## emitVortexReports
 
-**Kind:** `function` | **Module:** `src/reporters/finops-reporter.ts:372`
+**Kind:** `function` | **Module:** `src/reporters/finops-reporter.ts:378`
 
 Writes analysis outputs to `$GITHUB_OUTPUT`, `$GITHUB_STEP_SUMMARY`, workflow annotations, and the JSON report file.
 
